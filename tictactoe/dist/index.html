@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> TicTacToe</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- radio buttons nutzer hat auswahl zwischen zwei optionen, deklarierung von x und 0 der symbole und auswahl zwischen 
+computer oder freund -->
+<div id="head">
+            <h1>Tic-Tac-Toe</h1>
+	         <input name="player" id="r1" type="radio" value="X" checked><label for="r1"> X </label>
+            <input name="player" id="r2" type="radio" value="O"><label for="r2"> O </label>
+            <br><br>
+            <input name="opponent" id="o1" type="radio" value="computer" checked> <label for="o1"> Play the Computer </label>
+            <input name="opponent" id="o2" type="radio" value="friend"><label for="o2"> Play a friend</label>
+            <br><br>
+        </div>
+    	
+    	<table cellpadding="0" cellspacing="0">
+    		<tbody>
+
+				<!-- Benutzen der vertical und horizontal Befehle der Zellen um das Feld zu zeichnen-->
+    			<tr>
+    				<td id="cell1"></td>
+    				<td id="cell2" class="vertical"></td>
+    				<td id="cell3"></td>
+    			</tr>
+    			<tr>
+    				<td id="cell4" class="horizontal"></td>
+    				<td id="cell5" class="vertical horizontal"></td>
+    				<td id="cell6" class="horizontal"></td>
+    			</tr>
+    				<td id="cell7"></td>
+    				<td id="cell8" class="vertical"></td>
+    				<td id="cell9"></td>
+    			</tr>
+    		</tbody>
+    	</table>
+        <div id="new">
+            <button id="reset">Neues Spiel?</button>
+        </div>
+        
+       
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

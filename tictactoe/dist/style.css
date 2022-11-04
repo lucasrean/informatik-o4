@@ -1,0 +1,53 @@
+#head  {
+	text-align: center;
+	font-style: italic;
+}
+
+input {
+	width: 20px;
+	height: 20px;
+}
+
+label {
+	font-size: 24px;
+}
+
+table {
+	margin: auto;
+	background-color: #57B5CC;
+}
+td {
+	width: 100px;
+	height: 100px;
+}
+
+#new {
+	margin-top: 20px;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	margin-top: 50px;
+}
+
+/*Tic-Tac-Toe Playing Board*/
+.vertical {
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+}
+
+.horizontal  {
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+}
+
+.bg1 
+{
+  background-image: url("https://dl.dropboxusercontent.com/s/7x761r6adzvf3kn/X.png?dl=0");
+}
+
+.bg2 
+{
+  background-image: url("https://dl.dropboxusercontent.com/s/tlj24tfxswm0kwu/O.png?dl=0");
+}
