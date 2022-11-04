@@ -1,3 +1,43 @@
+/*
+
+                                   O |   | X
+                                   ---------
+                                   X |   | X
+                                   ---------
+                                     | O | O
+
+                             //       ||        \\
+
+                O | X | X          O |   | X        O |   | X
+                ---------          ---------        ---------
+                X |   | X          X | X | X        X |   | X
+                ---------          ---------        ---------
+                  | O | O            | O | O        X | O | O
+
+              //          \\                     //          \\
+
+        O | X | X          O | X | X        O | O | X       O |   | X
+        ---------          ---------        ---------       ---------
+        X | O | X          X |   | X        X |   | X       X | O | X
+        ---------          ---------        ---------       ---------
+          | O | O          O | O | O        X | O | O       X | O | O
+
+                                        //
+
+                                   O | O | X
+                                   ---------
+                                   X | X | X
+                                   ---------
+                                   O | O | O
+
+*/
+// this is the board flattened and filled with some values to easier asses the Artificial Inteligence.
+
+                                  
+
+
+
+
 $(document).ready(function(){
 	//  Setup für Array um benutzte Felder zu erkennen
 	var boardChoices = [1, 2, 3, 4, 5, 6, 7, 8, 9];
